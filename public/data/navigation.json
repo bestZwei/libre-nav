@@ -1,0 +1,361 @@
+{
+  "version": "2.0",
+  "site": {
+    "title": "Modern Nav",
+    "description": "现代化导航网站 - 精选优质网站资源",
+    "keywords": "导航,网站导航,网址导航,资源导航",
+    "logo": "/images/logo.png",
+    "favicon": "/images/favicon.ico",
+    "author": "Modern Nav Team",
+    "url": "https://your-site.com"
+  },
+  "settings": {
+    "theme": {
+      "default": "light",
+      "enableToggle": true,
+      "primaryColor": "#3B82F6"
+    },
+    "search": {
+      "enabled": true,
+      "pinyin": true,
+      "fuzzy": true,
+      "placeholder": "搜索网站 (Ctrl/Cmd + K)"
+    },
+    "goto": {
+      "enabled": true,
+      "countdown": 3,
+      "showWarning": true
+    },
+    "layout": {
+      "columns": {
+        "mobile": 1,
+        "tablet": 2,
+        "desktop": 4
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-001",
+      "name": "开发工具",
+      "icon": "Code2",
+      "description": "开发相关工具和资源",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": "cat-002",
+      "name": "设计资源",
+      "icon": "Palette",
+      "description": "设计工具和素材资源",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "cat-003",
+      "name": "AI工具",
+      "icon": "BrainCircuit",
+      "description": "人工智能相关工具",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "id": "cat-004",
+      "name": "学习资源",
+      "icon": "GraduationCap",
+      "description": "在线学习平台和教程",
+      "order": 4,
+      "visible": true
+    },
+    {
+      "id": "cat-005",
+      "name": "效率工具",
+      "icon": "Zap",
+      "description": "提高工作效率的工具",
+      "order": 5,
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "id": "link-001",
+      "title": "GitHub",
+      "url": "https://github.com",
+      "description": "全球最大的代码托管平台和开源社区",
+      "logo": "https://github.com/favicon.ico",
+      "categoryId": "cat-001",
+      "tags": ["开发", "代码", "开源"],
+      "featured": true,
+      "order": 1,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-002",
+      "title": "VS Code",
+      "url": "https://code.visualstudio.com",
+      "description": "微软开发的免费开源代码编辑器",
+      "logo": "https://code.visualstudio.com/favicon.ico",
+      "categoryId": "cat-001",
+      "tags": ["编辑器", "IDE", "开发"],
+      "featured": true,
+      "order": 2,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-003",
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "description": "全球最大的程序员问答社区",
+      "logo": "https://stackoverflow.com/favicon.ico",
+      "categoryId": "cat-001",
+      "tags": ["问答", "社区", "开发"],
+      "featured": false,
+      "order": 3,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-004",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "Web开发者最权威的技术文档",
+      "logo": "https://developer.mozilla.org/favicon.ico",
+      "categoryId": "cat-001",
+      "tags": ["文档", "Web", "学习"],
+      "featured": false,
+      "order": 4,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-005",
+      "title": "Figma",
+      "url": "https://www.figma.com",
+      "description": "强大的在线协作设计工具",
+      "logo": "https://www.figma.com/favicon.ico",
+      "categoryId": "cat-002",
+      "tags": ["设计", "UI", "协作"],
+      "featured": true,
+      "order": 1,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-006",
+      "title": "Dribbble",
+      "url": "https://dribbble.com",
+      "description": "设计师作品展示和灵感分享平台",
+      "logo": "https://dribbble.com/favicon.ico",
+      "categoryId": "cat-002",
+      "tags": ["设计", "灵感", "作品集"],
+      "featured": false,
+      "order": 2,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-007",
+      "title": "Unsplash",
+      "url": "https://unsplash.com",
+      "description": "免费高质量图片素材库",
+      "logo": "https://unsplash.com/favicon.ico",
+      "categoryId": "cat-002",
+      "tags": ["图片", "素材", "免费"],
+      "featured": false,
+      "order": 3,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-008",
+      "title": "Iconfont",
+      "url": "https://www.iconfont.cn",
+      "description": "阿里巴巴矢量图标库",
+      "logo": "https://www.iconfont.cn/favicon.ico",
+      "categoryId": "cat-002",
+      "tags": ["图标", "矢量", "素材"],
+      "featured": false,
+      "order": 4,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-009",
+      "title": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "description": "OpenAI开发的强大AI对话助手",
+      "logo": "https://chat.openai.com/favicon.ico",
+      "categoryId": "cat-003",
+      "tags": ["AI", "对话", "助手"],
+      "featured": true,
+      "order": 1,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-010",
+      "title": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "description": "AI图像生成工具",
+      "logo": "https://www.midjourney.com/favicon.ico",
+      "categoryId": "cat-003",
+      "tags": ["AI", "图像", "生成"],
+      "featured": true,
+      "order": 2,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-011",
+      "title": "Claude",
+      "url": "https://claude.ai",
+      "description": "Anthropic开发的AI助手",
+      "logo": "https://claude.ai/favicon.ico",
+      "categoryId": "cat-003",
+      "tags": ["AI", "对话", "助手"],
+      "featured": false,
+      "order": 3,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-012",
+      "title": "Coursera",
+      "url": "https://www.coursera.org",
+      "description": "世界知名在线学习平台",
+      "logo": "https://www.coursera.org/favicon.ico",
+      "categoryId": "cat-004",
+      "tags": ["学习", "课程", "教育"],
+      "featured": false,
+      "order": 1,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-013",
+      "title": "FreeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "description": "免费学习编程的开源社区",
+      "logo": "https://www.freecodecamp.org/favicon.ico",
+      "categoryId": "cat-004",
+      "tags": ["编程", "学习", "免费"],
+      "featured": true,
+      "order": 2,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-014",
+      "title": "LeetCode",
+      "url": "https://leetcode.com",
+      "description": "算法练习和面试准备平台",
+      "logo": "https://leetcode.com/favicon.ico",
+      "categoryId": "cat-004",
+      "tags": ["算法", "面试", "练习"],
+      "featured": false,
+      "order": 3,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-015",
+      "title": "Notion",
+      "url": "https://www.notion.so",
+      "description": "全能型笔记和协作工具",
+      "logo": "https://www.notion.so/favicon.ico",
+      "categoryId": "cat-005",
+      "tags": ["笔记", "协作", "效率"],
+      "featured": true,
+      "order": 1,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-016",
+      "title": "Trello",
+      "url": "https://trello.com",
+      "description": "看板式项目管理工具",
+      "logo": "https://trello.com/favicon.ico",
+      "categoryId": "cat-005",
+      "tags": ["项目管理", "看板", "协作"],
+      "featured": false,
+      "order": 2,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-017",
+      "title": "Todoist",
+      "url": "https://todoist.com",
+      "description": "强大的待办事项管理工具",
+      "logo": "https://todoist.com/favicon.ico",
+      "categoryId": "cat-005",
+      "tags": ["待办", "任务", "GTD"],
+      "featured": false,
+      "order": 3,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-018",
+      "title": "Slack",
+      "url": "https://slack.com",
+      "description": "团队沟通和协作平台",
+      "logo": "https://slack.com/favicon.ico",
+      "categoryId": "cat-005",
+      "tags": ["沟通", "协作", "团队"],
+      "featured": false,
+      "order": 4,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-019",
+      "title": "Canva",
+      "url": "https://www.canva.com",
+      "description": "在线平面设计工具",
+      "logo": "https://www.canva.com/favicon.ico",
+      "categoryId": "cat-002",
+      "tags": ["设计", "平面", "模板"],
+      "featured": false,
+      "order": 5,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "link-020",
+      "title": "CodePen",
+      "url": "https://codepen.io",
+      "description": "前端代码演示和分享平台",
+      "logo": "https://codepen.io/favicon.ico",
+      "categoryId": "cat-001",
+      "tags": ["前端", "代码", "演示"],
+      "featured": false,
+      "order": 5,
+      "visible": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}

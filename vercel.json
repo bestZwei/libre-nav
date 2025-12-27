@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["all"],
+  "env": {
+    "ADMIN_PASSWORD": "@admin_password"
+  }
+}

@@ -25,9 +25,9 @@ export function CategorySection({
   }
 
   return (
-    <section className="mb-12">
-      <div className="mb-6">
-        <h2 className="text-2xl font-bold mb-2">{category.name}</h2>
+    <section className="mb-10">
+      <div className="mb-4">
+        <h2 className="text-xl font-bold mb-1">{category.name}</h2>
         {category.description && (
           <p className="text-sm text-muted-foreground">{category.description}</p>
         )}

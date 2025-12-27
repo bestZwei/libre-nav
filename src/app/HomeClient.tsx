@@ -92,16 +92,16 @@ export function HomeClient({
           isMobileOpen={isMobileMenuOpen}
         />
 
-        <main className="flex-1 p-6 md:p-8">
-          <div className="max-w-7xl mx-auto">
+        <main className="flex-1 p-4 md:p-6 lg:p-8">
+          <div className="max-w-[1600px] mx-auto">
             {/* Page Title */}
-            <div className="mb-8">
-              <h1 className="text-3xl font-bold mb-2">
+            <div className="mb-6">
+              <h1 className="text-2xl md:text-3xl font-bold mb-1.5">
                 {activeCategory
                   ? initialCategories.find(c => c.id === activeCategory)?.name
                   : '全部分类'}
               </h1>
-              <p className="text-muted-foreground">
+              <p className="text-sm text-muted-foreground">
                 {activeCategory
                   ? initialCategories.find(c => c.id === activeCategory)?.description
                   : `共 ${displayLinks.length} 个精选网站`}
@@ -110,8 +110,11 @@ export function HomeClient({
 
             {/* Favorites Section (if any) */}
             {!activeCategory && favorites.length > 0 && (
-              <section className="mb-12">
-                <h2 className="text-2xl font-bold mb-4">我的收藏</h2>
+              <section className="mb-10">
+                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                  <span>⭐</span>
+                  <span>我的收藏</span>
+                </h2>
                 <NavGrid
                   links={getFavoriteLinks(initialLinks)}
                   favorites={favorites}

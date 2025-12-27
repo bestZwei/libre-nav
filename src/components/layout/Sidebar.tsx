@@ -47,7 +47,7 @@ export function Sidebar({
   return (
     <aside
       className={cn(
-        'w-64 border-r bg-background h-[calc(100vh-4rem)] overflow-y-auto',
+        'w-56 border-r bg-background h-[calc(100vh-4rem)] overflow-y-auto',
         'transition-transform duration-300 ease-in-out',
         'md:translate-x-0',
         isMobileOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0',
@@ -55,12 +55,12 @@ export function Sidebar({
         className
       )}
     >
-      <nav className="p-4 space-y-2">
+      <nav className="p-3 space-y-1">
         {/* All Categories */}
         <button
           onClick={() => onCategoryClick(null)}
           className={cn(
-            'w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors',
+            'w-full flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors',
             !activeCategory
               ? 'bg-primary text-primary-foreground'
               : 'hover:bg-accent hover:text-accent-foreground'
@@ -79,7 +79,7 @@ export function Sidebar({
             <div key={category.id}>
               <div
                 className={cn(
-                  'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer',
+                  'flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer',
                   isActive
                     ? 'bg-primary text-primary-foreground'
                     : 'hover:bg-accent hover:text-accent-foreground'
